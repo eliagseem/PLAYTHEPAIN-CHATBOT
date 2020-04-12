@@ -1,0 +1,68 @@
+/*stuff that should be the same on every screen*/
+
+html,
+body {
+  margin:0 auto;
+  width: 75%;
+  height: 100%;
+  background:white;
+  padding-top:3%;
+}
+
+p {
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centered{
+    margin:0 auto;
+    text-align:center;
+}
+
+
+* {
+    color: black;
+	box-sizing: border-box;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+.startScreenHeader {
+	font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+   	font-size:2em;
+}
+
+.startButton {
+	text-align: center;
+	outline: none;
+	padding-top: 15px;
+	border: none;
+	background: none;
+    font-family: 'Raleway', sans-serif;
+    font-size:1.2em;
+}
+
+button:hover {
+	opacity:0.5;
+}
+
+.banner {
+	background-image: url(../images/chart1para.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+.chart2banner {
+	background-image: url(../images/chart2parallax.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
